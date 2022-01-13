@@ -1,1 +1,1 @@
-# renovate-test-2
+# renovate-test-repo

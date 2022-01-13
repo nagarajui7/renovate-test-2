@@ -1,0 +1,14 @@
+plugins {
+    id 'ru.vyarus.use-python' version "${pluginVersion}"
+    id 'com.github.jishida.shellscript' version '0.3'
+
+    
+}
+
+task sample(type: PythonTask){
+	command = "hello-world.py"
+}
+
+task sampleShell(type: ShellScript){
+	scriptFile = file('my-script.sh')
+}
